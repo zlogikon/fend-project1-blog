@@ -144,10 +144,21 @@ footer {
   margin: 5px;
 }
 
+/* Main content area */
+
+.main-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
 .card {
   transition: 0.3s; /*Adds fade in shadow on hover*/
-  margin: 20px;
-  width: 300px;
+  margin: 10px;
+  width: 250px;
   border: solid;
   border-color: #b1a296;
   display:block;
@@ -208,6 +219,29 @@ footer {
 
 h1 {
   font-size: 50px;
+}
+
+.card {
+  transition: 0.3s; /*Adds fade in shadow on hover*/
+  margin: 20px;
+  width: 300px;
+  border: solid;
+  border-color: #b1a296;
+  display:block;
+}
+
+.card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /*Adds shadow on hover*/
+}
+
+.card-info {
+  padding: 2px 16px;
+  color:#5d5c61;
 }
 
 #card1{
