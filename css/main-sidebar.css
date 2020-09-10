@@ -5,6 +5,9 @@
 
 /* Anything smaller than first breakpoint 600px */
 
+
+
+
 .container {
    display: grid;
    width: 100%;
@@ -142,7 +145,6 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 5px;
 }
 
@@ -196,7 +198,7 @@ footer {
 @media (min-width: 801px) and (max-width:1000px) {
 
 .container {
-  grid-template-columns: 30% 1fr 1fr;
+  grid-template-columns: 270px 1fr 1fr;
   grid-template-rows: repeat(3, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -261,7 +263,7 @@ footer {
 @media (min-width:1001px) and (max-width:1374px) {
 
   .container {
-     grid-template-columns: 20% 1fr 1fr 1fr;
+     grid-template-columns: 270px 1fr 1fr 1fr;
      grid-template-rows: repeat(3, auto);
      grid-column-gap: 0px;
      grid-row-gap: 0px;
@@ -313,16 +315,15 @@ footer {
 /* Widest Screens */
 @media (min-width:1375px) {
 
-  .container {
-     grid-template-columns: 20% 1fr 1fr 1fr 1fr;
-     grid-template-rows: repeat(3, auto);
-     grid-column-gap: 0px;
-     grid-row-gap: 0px;
-     grid-template-areas:
-       "header header header header header"
-       "nav main main main main"
-       "footer footer footer footer footer";
-   }
+.container {
+   grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-areas:
+     "header header header header header"
+     "nav main main main main"
+     "footer footer footer footer footer";
+ }
 
 .main-grid{
   margin: 50px;
