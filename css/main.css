@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto&display=swap');
-@import url('homepage.css');
+@import url('main-grid.css');
+@import url('post-grid.css');
 @import url('design-system.css');
 
 
@@ -57,6 +58,11 @@ ul {
   line-height: 2;
 }
 
+ol {
+  line-height: 2;
+
+}
+
 blockquote {
   font-size: 20px;
   padding: 30px;
@@ -68,6 +74,10 @@ blockquote {
 a {
   color: #5d5c61;
   text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 header {
@@ -140,40 +150,6 @@ footer {
   margin: 5px;
 }
 
-/* Main content area */
-
-.main-grid{
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  justify-items: center;
-}
-
-.card {
-  transition: 0.3s; /*Adds fade in shadow on hover*/
-  margin: 10px;
-  width: 250px;
-  border: solid;
-  border-color: #b1a296;
-  display:block;
-}
-
-.card a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /*Adds shadow on hover*/
-}
-
-.card-info {
-  padding: 2px 16px;
-  color:#5d5c61;
-}
-
 .btext{
   font-weight: bolder;
 }
@@ -185,6 +161,9 @@ footer {
 .under{
   text-decoration: underline;
 }
+
+
+
 
 /* Medium Screens */
 @media (min-width: 601px) and (max-width:1000px) {
@@ -199,62 +178,6 @@ footer {
     "nav main main"
     "footer footer footer";
    }
-
-.post-grid{
-margin: 20px 10px;
-display: grid;
-width: 100%;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 100px 1fr;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
-justify-items: center;
-}
-
-
-.main-grid{
-  margin: 20px 10px;
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-items: center;
-}
-
-.card {
-  width: auto;
-  }
-
-  #card1{
-    grid-column: 1;
-  }
-  #card2{
-    grid-column: 2;
-  }
-  #card3{
-    grid-column: 1;
-  }
-  #card4{
-    grid-column: 2;
-  }
-  #card5{
-    grid-column: 1;
-  }
-  #card6{
-    grid-column: 2;
-  }
-  #card7{
-    grid-column: 1;
-  }
-  #card8{
-    grid-column: 2;
-  }
-  #card9{
-    grid-column: 1;
-  }
-
-
 }
 
 
@@ -274,45 +197,4 @@ justify-items: center;
       "footer footer";
      }
 
-.main-grid{
-  margin: 0px;
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-items: center;
-}
-
-.card {
-  width: auto;
-}
-
-#card1{
-  grid-column: 1;
-}
-#card2{
-  grid-column: 2;
-}
-#card3{
-  grid-column: 3;
-}
-#card4{
-  grid-column: 1;
-}
-#card5{
-  grid-column: 2;
-}
-#card6{
-  grid-column: 3;
-}
-#card7{
-  grid-column: 1;
-}
-#card8{
-  grid-column: 2;
-}
-#card9{
-  grid-column: 3;
-}
 }
