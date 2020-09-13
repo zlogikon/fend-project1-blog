@@ -200,6 +200,18 @@ footer {
     "footer footer footer";
    }
 
+.post-grid{
+margin: 20px 10px;
+display: grid;
+width: 100%;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 100px 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+justify-items: center;
+}
+
+
 .main-grid{
   margin: 20px 10px;
   display: grid;
