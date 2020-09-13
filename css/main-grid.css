@@ -32,6 +32,10 @@
   color:#5d5c61;
 }
 
+.main-grid img{
+  width:100%;
+}
+
 /* Medium Screens */
 @media (min-width: 601px) and (max-width:1000px) {
 
@@ -45,9 +49,7 @@
   justify-items: center;
 }
 
-.card {
-  width: auto;
-  }
+
 
   #card1{
     grid-column: 1;
@@ -91,10 +93,6 @@
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   justify-items: center;
-}
-
-.card {
-  width: auto;
 }
 
 #card1{
