@@ -3,10 +3,9 @@
 #post-title{
   margin: 20px;
   padding:0px;
-  display: flex;
-  justify-content: flex-start;
   grid-column: 1;
   grid-row: 1;
+  color:#5d5c61;
 }
 
 #author-info{
@@ -25,7 +24,6 @@
 #author-info ul{
   display: flex;
   flex-direction: column;
-  line-height:2;
   list-style-type: none;
   align-content: space-around;
 }
@@ -59,6 +57,8 @@
   border: solid;
   border-color: #b1a296;
   display:block;
+  color:#5d5c61;
+
 }
 
 
