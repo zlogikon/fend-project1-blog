@@ -5,6 +5,7 @@
 
 
 /* Anything smaller than first breakpoint 600px -- Navigation on top */
+/* This stylesheet includes structural elements that are used on all pages, including navigation*/
 
 .container {
    display: grid;
@@ -42,7 +43,6 @@
 
  h3 {
    font-size: 20px;
-   margin:20px;
  }
 
  p {
