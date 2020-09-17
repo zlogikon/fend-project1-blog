@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto&display=swap');
 @import url('home-grid.css');
 @import url('post-grid.css');
-
 @import url('design-system.css');
 
 
@@ -47,9 +46,9 @@
  }
 
  p {
-   font-size:16px;
-   margin:10px;
-   line-height:2;
+  font-size:16px;
+  margin:10px;
+  line-height:2;
  }
 
 ul {
