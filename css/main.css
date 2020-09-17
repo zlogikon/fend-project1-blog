@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto&display=swap');
 @import url('home-grid.css');
 @import url('post-grid.css');
+
 @import url('design-system.css');
 
 
-/* Anything smaller than first breakpoint 600px -- Navigation on top */
+/* Anything smaller than first breakpoint 750px -- Navigation on top */
 /* This stylesheet includes structural elements that are used on all pages, including navigation*/
 
 .container {
@@ -156,7 +157,7 @@ footer {
 }
 
 /* Medium and Large Screens -- Navigation on left */
-@media (min-width: 750px) {
+@media (min-width: 751px) {
 
 .container {
   grid-template-columns: 270px 1fr;
