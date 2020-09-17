@@ -14,7 +14,7 @@
    background-color: #e1f4ee;
    padding: 0px;
    font-family: 'Roboto', sans-serif;
-   grid-template-columns: repeat 1;
+   grid-template-columns: 1;
    grid-template-rows: repeat(4, auto);
    grid-column-gap: 0px;
    grid-row-gap: 0px;
@@ -121,9 +121,6 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
   padding: 15px;
 }
 
