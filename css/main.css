@@ -13,7 +13,6 @@
    background-color:#e1f4ee;
    padding:0px;
    font-family:'Roboto', sans-serif;
-   grid-template-columns:1;
    grid-template-rows:repeat(4, auto);
    grid-column-gap:0px;
    grid-row-gap:0px;
