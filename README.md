@@ -1,5 +1,5 @@
 # Responsive web design
-<a href="https://zlogikon.github.io/project1-blog/">Project homepage</a>
+<a href="https://zlogikon.github.io/fend-project1-blog/">Project homepage</a>
 
 This project was created as part of Udacity's Front End Developer Nanodegree program.
 
